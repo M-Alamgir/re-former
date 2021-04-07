@@ -12,6 +12,15 @@
   <% end %>
 
   <div class="actions">
+    <%= form.label :username, "Enter your Username" %>
+    <%= form.text_field :username %>
+
+    <%= form.label :email, "Enter your Email" %>
+    <%= form.email_field :email %>
+
+    <%= form.label :password, "Your Password" %>
+    <%= form.password_field :password %>
+
     <%= form.submit %>
   </div>
 <% end %>
