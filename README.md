@@ -2,6 +2,8 @@
 
 This is the fifth project of the Main Rails curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 
+Build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
+
 ### Clone the project
 
 - Clone the repo and run the app.
