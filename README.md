@@ -1,6 +1,4 @@
-# Project: Bare Metal Forms and Helpers (Ruby on Rails)
-
-## Ruby version
+# Project : Bare Metal Forms and Helpers (Ruby on Rails)
 
 This is the fifth project of the Main Rails curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 
@@ -69,6 +67,11 @@ rails db:migrate
 
 - GitHub: [@ourandco](https://github.com/ourandco)
 - Twitter: [@Alphacrescent1](https://twitter.com/Alphacrescent1)
+
+## Acknowledgment
+The resources we have used to develop our project:
+
+- [Odin-project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms)
 
 ## Show your support
 
