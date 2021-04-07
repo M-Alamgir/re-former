@@ -1,24 +1,88 @@
-# README
+# Project : Bare Metal Forms and Helpers (Ruby on Rails)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the fifth project of the Main Rails curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 
-Things you may want to cover:
+Build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-* Ruby version
+### Clone the project
 
-* System dependencies
+- Clone the repo and run the app.
 
-* Configuration
+```bash
+$ git clone https://github.com/M-Alamgir/re-former.git
+$ cd re-former
 
-* Database creation
+```
 
-* Database initialization
+### Run bundle install and migrate as follows:
 
-* How to run the test suite
+```bash
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+rails db:migrate
+```
 
-* Deployment instructions
+## Validations
 
-* ...
+```
+`username` can not be blank and can be too short (minimum is 2 characters)
+`email` can not be blank and can not exceed 25 characters
+`password` can not be blank and can not be too short
+
+```
+
+## Screenshots
+
+### Create user
+
+`http://localhost:3000/users`
+![screenshot](app/assets/images/img-1.png)
+
+### Edit/Update user
+
+`http://localhost:3000/users/1/edit`
+![screenshot](app/assets/images/img-4.png)
+
+### Form Validations
+
+![screenshot](app/assets/images/img-5.png)
+
+### Show user
+
+`http://localhost:3000/users/1`
+![screenshot](app/assets/images/img-2.png)
+
+### Show all users
+
+`http://localhost:3000/users`
+![screenshot](app/assets/images/img-1.png)
+
+## Ruby version
+
+    ruby 2.7.0p0
+
+## Rails version
+
+    Rails 6.1.3.1
+
+👤 **Alamgir**
+
+- GitHub: [@ourandco](https://github.com/ourandco)
+- Twitter: [@Alphacrescent1](https://twitter.com/Alphacrescent1)
+
+## Acknowledgment
+The resources we have used to develop our project:
+
+- [Odin-project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms)
+
+## Show your support
+
+Give ⭐ Star me on GitHub — it helps!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed. 
